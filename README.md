@@ -25,4 +25,14 @@ open http://localhost:8888/client to recieve those messages instantly.
 
 Extending Torn-Tweet 
 
+Resources:
+
+http://www.tornadoweb.org/en/stable/
+
+https://github.com/tornadoweb/tornado
+
+http://developer.mbed.org/cookbook/Websockets-Server
+
+http://autobahn.ws/python/
+
 We can also have specific subscribers for a channel. It is a work of doing isSubscribed on redis to a channel and little more JS. Channel is the user whom clients are following. In our application we hardcoded channel as "fitness". You can extend it as your requirements.i gave a running tempate for Web-sockets.
