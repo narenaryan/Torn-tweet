@@ -3,7 +3,13 @@
 A Tornado written Twitter like stream with WebSockets
 
 Do you need a twitter like Follower - Following real time tweeting , that too scalable with Websockets and has Tornado simplicity. Then Use this Torn-tweet.
-Running Torn-tweet is simple. Just do
+
+Before using this just install tornado and redis
+
+$ pip install tornado
+$ pip install redis
+
+Now run as
 
 $ python tweetdemo.py
 
