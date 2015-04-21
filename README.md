@@ -13,4 +13,4 @@ open localhost:8888/client to recieve those messages instantly.
 
 We can handle controlling clients for a tweet i.e followers only get messages. That feature will be added. 
 
-But ths is an open deonstration how websockets function to give real-time data streaming service. 
+But ths is an open demonstration of how websockets function to give real-time data streaming service. 
