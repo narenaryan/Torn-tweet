@@ -19,10 +19,10 @@ Now run as
 $ python tweetdemo.py
 ```
 
-Now Go to localhost:8888/ to tweet
+Now Go to default tornado running address ,http://localhost:8888/ to tweet 
 
-open localhost:8888/client to recieve those messages instantly.
+open http://localhost:8888/client to recieve those messages instantly.
 
-We can handle controlling clients for a tweet i.e followers only get messages. That feature will be added. 
+Extending Torn-Tweet 
 
-But ths is an open demonstration of how websockets function to give real-time data streaming service. 
+We can also have specific subscribers for a channel. It is a work of doing isSubscribed on redis to a channel. Channel is the user whom clients are following. In our application we hardcoded channel as "fitness". You can extend it as your requirements.i gave a running tempate for Web-sockets.
