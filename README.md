@@ -7,6 +7,7 @@ Do you need a twitter like Follower - Following real time tweeting , that too sc
 Before using this just install tornado and redis
 
 $ pip install tornado
+
 $ pip install redis
 
 Now run as
